@@ -1,2 +1,2 @@
 SCRIPTPATH=$( cd $(dirname $0) ; pwd -P )
-nodejs ${SCRIPTPATH}/haxe-cli.js $*
+node ${SCRIPTPATH}/haxe-cli.js $*
